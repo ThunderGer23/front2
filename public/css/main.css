@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap');
+body{
+    font-family: 'Fira Code', monospace;
+}
+.logo{
+    width: 20%;
+    max-width: 80px;
+}
+.bd-vite {
+    display: table-cell;
+    vertical-align: bottom;
+}
