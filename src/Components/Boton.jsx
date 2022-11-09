@@ -1,4 +1,6 @@
-export const App = ({texto}) => {
+
+
+export const Boton = ({texto}) => {
   return(
     <>
       <div className="d-grid gap-2 mb-4">
@@ -9,4 +11,8 @@ export const App = ({texto}) => {
       </div>
     </>
   )
+}
+
+Boton.protoTypes = {
+  texto: PropTypes.string.isRequired
 }
