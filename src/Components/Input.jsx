@@ -1,4 +1,6 @@
-export const Input = () =>{
+
+
+export const Input = ({Tipo,Holder}) =>{
     return (
         <>
         <div className="input-group mb-4">
@@ -6,7 +8,8 @@ export const Input = () =>{
                 <i className="fa-regular fa-user" style={{color:'white'}}></i>
             </span>
         </div>
-        <input type="text" className="form-control" placeholder="usuario:" aria-label="Username" aria-describedby="basic-addon1"/>
+        <input type={Tipo} className="form-control" placeholder={Holder} aria-label="Username" aria-describedby="basic-addon1"/>
         </>
     )
 }
+
