@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types'
 
 export const Input = ({Tipo,Holder}) =>{
     return (
@@ -13,3 +13,7 @@ export const Input = ({Tipo,Holder}) =>{
     )
 }
 
+Input.propTypes = {
+    Tipo: PropTypes.string.isRequired,
+    Holder: PropTypes.string.isRequired
+}
