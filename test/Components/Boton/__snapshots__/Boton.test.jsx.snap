@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el Boton Esta prueba es para hacer match con el snapshot 1`] = `
+<div>
+  <div
+    class="d-grid gap-2 mb-4"
+  >
+    <button
+      class="btn btn-light"
+      type="button"
+    >
+      <i
+        class="fa fa-right-to-bracket orange"
+      />
+      Boton
+    </button>
+  </div>
+</div>
+`;
