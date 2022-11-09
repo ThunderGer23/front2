@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types'
 
 export const Boton = ({texto}) => {
   return(
