@@ -8,7 +8,7 @@ export const Input = ({Tipo,Holder}) =>{
                 <i role='i' className="fa-regular fa-user" style={{color:'white'}}></i>
             </span>
         </div>
-        <input role='input' type={Tipo} className="form-control" placeholder={Holder} aria-label="Username" aria-describedby="basic-addon1"/>
+        <input role='input' name={Holder+Tipo} type={Tipo} className="form-control" placeholder={Holder+':'} aria-label="Username" aria-describedby="basic-addon1"/>
         </>
     )
 }

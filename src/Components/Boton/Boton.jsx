@@ -4,7 +4,7 @@ export const Boton = ({texto}) => {
   return(
     <>
       <div role='div' className="d-grid gap-2 mb-4">
-          <button className="btn btn-light" type="button">
+          <button name={texto+'button'} className="btn btn-light" type="button">
               <i role='i' className="fa fa-right-to-bracket orange"></i>
               {texto}
           </button>
