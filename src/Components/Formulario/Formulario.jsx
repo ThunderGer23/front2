@@ -1,10 +1,8 @@
-
-
 export const Formulario = () =>{
     return (
         <>
-        <div>
-            <form action="" className="bt-4">
+        <div role='div'>
+            <form role='form' action="" className="bt-4">
                 
             </form>
         </div>

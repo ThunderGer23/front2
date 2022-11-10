@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente Formulario Esta prueba es para hacer match con el snapshot 1`] = `
+<div>
+  <div
+    role="div"
+  >
+    <form
+      action=""
+      class="bt-4"
+      role="form"
+    />
+  </div>
+</div>
+`;
