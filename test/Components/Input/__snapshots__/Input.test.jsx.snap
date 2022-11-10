@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente Input Esta prueba es para hacer match con el snapshot 1`] = `
+<div>
+  <div
+    class="input-group mb-4"
+    role="div"
+  >
+    <span
+      class="input-group-text"
+      id="basic-addon1"
+      role="span"
+    >
+      <i
+        class="fa-regular fa-user"
+        role="i"
+        style="color: white;"
+      />
+    </span>
+  </div>
+  <input
+    aria-describedby="basic-addon1"
+    aria-label="Username"
+    class="form-control"
+    placeholder="email:"
+    role="input"
+    type="email"
+  />
+</div>
+`;
