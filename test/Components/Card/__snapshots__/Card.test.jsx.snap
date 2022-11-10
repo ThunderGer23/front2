@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente Card Esta prueba es para hacer match con el snapshot 1`] = `
+<div>
+  <div
+    class="card-body"
+    role="div"
+  >
+    <h3
+      role="h3"
+    >
+      Titulo Card
+    </h3>
+    <p
+      role="p"
+    >
+      Texto del Card
+    </p>
+  </div>
+</div>
+`;

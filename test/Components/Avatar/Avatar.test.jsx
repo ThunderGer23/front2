@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { Avatar } from "../../../src/Components/Avatar/Avatar";
 
 describe('Pruebas en el componente Avatar', () => { 
-const Direccion='../../../public/img/mq16.png'
+    const Direccion='../../../public/img/mq16.png'
 
     test('Esta prueba es para hacer match con el snapshot', () => { 
         const {container} = render(<Avatar Direccion={Direccion} />)//Renderiza el componente
