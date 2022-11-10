@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba en el componente Logo Esta prueba es para hacer match con el snapshot 1`] = `
+<div>
+  <div
+    class="text-center mb-5"
+    role="div"
+  >
+    <img
+      alt=""
+      class="logo"
+      role="img"
+      src="../../../public/img/mq16.png"
+      style="width: 7rem;"
+    />
+  </div>
+</div>
+`;
