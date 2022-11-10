@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 export const Icono = ({texto,Direccion}) => {
   return (
     <>
-    <p>{texto}</p>
-    <img className="logo" src={Direccion}  width="45"/>
+    <p role='p'>{texto}</p>
+    <img role='img' className="logo" src={Direccion}  width="45"/>
     </>
   )
 }

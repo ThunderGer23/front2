@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente Icono Esta prueba es para hacer matchcon el snapshot 1`] = `
+<div>
+  <p
+    role="p"
+  >
+    Aten
+  </p>
+  <img
+    class="logo"
+    role="img"
+    src="../../../public/img/mq16.png"
+    width="45"
+  />
+</div>
+`;
